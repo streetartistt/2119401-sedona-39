@@ -3,6 +3,7 @@
 * Студент: [Евгений Кондратьев](https://up.htmlacademy.ru/htmlcss/39/user/2119401).
 * Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
 
+
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
