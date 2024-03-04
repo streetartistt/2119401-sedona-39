@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Информационный портал города Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="header" data-test="header">
@@ -11,7 +12,7 @@
           <img class=header-logo-image src="Images/logo.svg" width="140" height="70" alt="Герб города Седона">
         </a>
 
-        <ul class="header-menu-items">
+        <ul class="header-menu-list list-reset">
           <li class="header-menu-item">
             <a class="header-menu-link" class="header-menu-current" href="https://streetartistt.github.io/2119401-sedona-39/#">Главная</a>
           </li>
@@ -23,7 +24,7 @@
           </li>
         </ul>
 
-        <ul class="header-user">
+        <ul class="header-user list-reset">
           <li class="header-user-item">
             <a class="site-search" href="#">
               <span class="visually-hidden">Поиск</span>
@@ -36,7 +37,7 @@
             <span class="favorites-tag">12</span>
           </li>
           <li class="header-user-item">
-            <a class="header-user-link" href="#">Хочу сюда!</a>
+            <a class="header-user-button custom-button" href="#">Хочу сюда!</a>
           </li>
         </ul>
 
@@ -51,48 +52,48 @@
 
       <section class="features" id="features" data-test="advantages">
         <h2 class="visually-hidden">Седона - основные достоинства</h2>
-        <p class="features-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="features-title heading-2-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="features-about">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
 
         <ul class="features-list-1">
-          <li class="features-list-item">
-            <h3 class="features-list-title">Настоящий городок</h3>
+          <li class="features-list-item features-list-item-wide">
+            <h3 class="heading-3-title">Настоящий городок</h3>
             <p class="features-list-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img src="Images/features-1.jpg" width="800" height="385" loading="lazy" alt="Фото города Седона">
           </li>
           <li class="features-list-item">
-            <h3 class="features-list-title">Небольшая площадь</h3>
+            <h3 class="heading-3-title">Небольшая площадь</h3>
             <p class="features-list-description">Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="features-list-item">
-            <h3 class="features-list-title">Красивая дорога</h3>
+          <li class="features-list-item features-list-item-dark">
+            <h3 class="heading-3-title">Красивая дорога</h3>
             <p class="features-list-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="features-list-item">
-            <h3 class="features-list-title">Мало туристов</h3>
+            <h3 class="heading-3-title">Мало туристов</h3>
             <p class="features-list-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
-          <li class="features-list-item">
+          <li class="features-list-item features-list-item-wide">
             <img src="Images/features-2.jpg" width="800" height="385" loading="lazy" alt="Фото Гранд Каньона">
-            <h3 class="features-list-title">Там есть мост дьявола</h3>
+            <h3 class="heading-3-title">Там есть мост дьявола</h3>
             <p class="features-list-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
         </ul>
 
         <h3 class="visually-hidden">Инфраструктура</h3>
-        <p class="features-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
+        <p class="features-title heading-2-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
         <p class="features-about">Опытный персонал и качественное обслуживание!</p>
         <ul class="features-list-2">
-          <li class="features-list-item-2">
-            <h4 class="features-list-title">Жилье</h4>
-            <p class="features-list-description">Рекомендуем пожитьв настоящем мотеле, всё как в кино!</p>
+          <li class="features-list-item-2 features-list-item-2-dark">
+            <h4 class="heading-3-title">Жилье</h4>
+            <p class="features-list-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="features-list-item-2">
-            <h4 class="features-list-title">Еда</h4>
+            <h4 class="heading-3-title">Еда</h4>
             <p class="features-list-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li class="features-list-item-2">
-            <h4 class="features-list-title">Сувениры</h4>
+          <li class="features-list-item-2 features-list-item-2-dark">
+            <h4 class="heading-3-title">Сувениры</h4>
             <p class="features-list-description">Не только китайского, о и настоящего местного производства!</p>
           </li>
         </ul>
@@ -100,21 +101,21 @@
 
       <section class="hotel-search">
         <h2 class="visually-hidden">Поиск гостиницы в Cедоне</h2>
-        <p class="hotel-search-title">Заинтересовались?</p>
+        <p class="hotel-search-title heading-2-title">Заинтересовались?</p>
         <p class="hotel-search-about">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a class="hotel-search-link">Поиск гостиницы в Седоне</a>
+        <a class="hotel-search-button custom-button" href="catalog.html">Поиск гостиницы в Седоне</a>
       </section>
     </main>
 
     <footer class="footer" data-test="footer">
       <section class="newsletters newsletters-index" data-test="subscribe">
-        <h2 class="newsletters-title">Подпишитесь на рассылку</h2>
-        <p class="newsletters-about">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <h2 class="newsletters-title newsletters-title-index heading-2-title">Подпишитесь на рассылку</h2>
+        <p class="newsletters-about newsletters-about-index">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletters-form" action="https://echo.htmlacademy.ru/" method="post">
           <label>
             <input class="newsletters-input" type="email" name="email" placeholder="Ваш e-mail" required>
           </label>
-          <button class="newsletters-button" type="submit"> Подписаться</button>
+          <button class="newsletters-button custom-button" type="submit"> Подписаться</button>
         </form>
       </section>
 
